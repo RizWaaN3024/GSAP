@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111;
+}
+h1{
+    color:wheat;
+}
+
+#box1 {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+/* #box2 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+} */
+
+/* TimeLine */
+nav{
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+#part2{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+#heading{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
