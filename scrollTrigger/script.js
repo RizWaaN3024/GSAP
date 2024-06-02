@@ -15,7 +15,9 @@ gsap.from('#page2 .box', {
         trigger: '#page2 .box',
         markers: true,
         scroller: "body",
-        start: 'top 60%'
+        start: 'top 60%',
+        scrub: true, //the scrub property makes the animation completely dependent on scroll it accepts boolean values or value between 1 to 5 which defines the smoothness
+
     }
 })
 gsap.from("#page3 h1", {
@@ -27,7 +29,7 @@ gsap.from("#page3 h1", {
         trigger: "#page3 h1",
         start: "top 50%",
         scroller: "body",
-        markers: true
+        markers: true,
     }
 })
 
