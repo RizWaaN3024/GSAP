@@ -9,12 +9,16 @@ body {
     width: 100%;
     height: 100%;
 }
+body {
+    overflow-x: hidden;
+}
 .main {
     height: 100%;
     width: 100%;
     background-image: url('https://images.unsplash.com/photo-1597200381847-30ec200eeb9a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .nav {
     display: flex;
@@ -30,4 +34,37 @@ body {
 
 .nav > i {
     font-size: 30px;
+    color: #ffff;
+    cursor: pointer;
+}
+.mobile-nav {
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: -30%;
+    background-color: #ffffff68;
+    backdrop-filter: blur(10px);
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 30px;
+    gap: 20px;
+}
+
+.nav-items h2 {
+    font-size: 2rem;
+    color: #ffff;
+    font-weight: 800;
+}
+.mobile-nav i {
+    font-size: 2rem;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    color: #ffff;
+    cursor: pointer;
 }
