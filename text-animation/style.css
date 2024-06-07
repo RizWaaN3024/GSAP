@@ -18,4 +18,8 @@ body {
 h1{
     color: #fff;
     font-size: 10rem;
+    overflow: hidden;
+}
+h1 span {
+    display: inline-block;
 }
