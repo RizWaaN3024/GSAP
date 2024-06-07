@@ -45,6 +45,7 @@ body {
     right: -30%;
     background-color: #ffffff68;
     backdrop-filter: blur(10px);
+    border-radius: 50% 0 0 50%;
 }
 
 .nav-items {
