@@ -10,8 +10,8 @@ tl.to('.mobile-nav', {
 
 tl.from('.nav-items h2', {
     x:100,
-    duration: 0.1,
-    stagger: 0.1,
+    duration: 0.2,
+    stagger: 0.05,
     ease: 'power2.out',
     opacity: 0
 })

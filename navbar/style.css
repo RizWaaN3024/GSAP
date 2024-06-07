@@ -64,6 +64,9 @@ body {
 .mobile-nav i {
     font-size: 2rem;
     padding: 10px;
+    position: relative;
+    top: 6%;
+    right: 6%;
     display: flex;
     justify-content: end;
     color: #ffff;
