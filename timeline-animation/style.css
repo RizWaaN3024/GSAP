@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+.part2 {
+    display: flex;
+    gap: 30px;
+}
+
+nav h1 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav h1 i {
+    display: inline-block;
+    rotate: 45deg;
+}
+nav h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav button {
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: transparent;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.center {
+    padding: 70px 100px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.center-part1 {
+    height: 100%;
+    width: 44%;
+}
+
+.center-part2 {
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.center-part1 h1 {
+    font-size: 60px;
+    line-height: 1;
+}
+.center-part1 p {
+    font-size: 24px;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.center-part1 button {
+    background-color: black;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 14px 30px;
+    font-weight: 600;
+    border: none;
+}
+
+.center-part2 img {
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.section1bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+.section1bottom img {
+    height: 60px;
+}
