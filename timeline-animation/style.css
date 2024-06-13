@@ -102,3 +102,20 @@ nav button {
 .section1bottom img {
     height: 60px;
 }
+
+
+
+.section2 .services {
+    /* padding: 40px 120px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.services h3 {
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 8px 10px;
+    font-size: 40px;
+    border-radius: 5px;
+}
